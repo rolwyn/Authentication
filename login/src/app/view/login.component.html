@@ -1,0 +1,44 @@
+<div class="main_container display_flex">
+  <div class="col-md-4 p-0 login_wrapper">
+    <div class="login_wrapper_inner flex_col">
+      <div class="logo_wrapper">
+        <div class="logo_image"></div>
+      </div>
+      <div class="login_form">
+        <form action="/login/post/" id="login-form">
+          <div class="form_header">
+            <h1 class="h1_text">Log In</h1>
+            <p class="need_account_text">
+              <span>Need an account?</span>
+              <a href="javascript:">Create an account</a>
+            </p>
+          </div>
+          <fieldset>
+            <div class="clearfix formfield_elem mb_zero">
+              <label for="username">Username</label>
+              <input type="text" class="username" id="username" autofocus="autofocus" autocorrect="off"           autocapitalize="off">
+            </div>
+            <div class="clearfix formfield_elem mb_zero">
+              <label for="password" class="float_left">Password</label>
+              <div class="float_right">
+                <label for="show_password" class="float_right _showhide">Show</label>                
+              </div>
+            </div>
+            <div class="clearfix formfield_elem">
+              <input type="password" class="password" id="password" autofocus="autofocus" autocorrect="off"           autocapitalize="off">
+            </div>
+            <div class="clearfix formfield_elem">
+              <button type="submit" class="button_large full_width p1">Log In</button>
+            </div>                               
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-8 p-0 login_portrait_wrapper full_height_vh">
+    <div class="login_portrait_image_wrapper">
+      <div class="login_portrait_image"></div>
+    </div>
+  </div>
+</div>

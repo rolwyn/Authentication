@@ -1,0 +1,113 @@
+.h1_text {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.main_container {
+  height: 100%;
+  width: 100%;
+
+  .login_wrapper {
+    padding: 0 18px !important;
+    .login_wrapper_inner {
+      float: none;
+      padding: 6px;
+      max-width: 485px;
+      margin-left: auto;
+      margin-right: auto;
+      .logo_wrapper {
+        float: none;
+        max-width: 480px;
+        height: 115px;
+        margin-top: 30px;
+        margin-bottom: 12px;
+        position: relative;
+        .logo_image {
+          width: 100%;
+          height: 100%;
+          background: url('https://www.freepnglogos.com/uploads/bmw-brands-logo-image-1.png') no-repeat scroll 50% transparent;
+          background-position: center center;
+          background-size: 115px;
+        }
+      }
+
+      .login_form {
+        float: none;
+        width: auto;
+        overflow: visible;
+        padding-left: 15px;
+        padding-right: 15px;
+        .form_header {
+          margin-bottom: 30px;
+          .need_account_text{
+            span {
+              padding-right: 6px;
+              color: #6b6b6b;
+            }
+            a {
+            color: #007c89;
+            line-height: normal;
+            text-decoration: none;
+            border-bottom: 1px solid;
+            }
+          }
+        }
+        .formfield_elem {
+          position: relative;
+          margin-bottom: 18px;
+
+          ._showhide {
+            color: #007c89;
+            letter-spacing: 0.5px;
+            // &:after {
+            //   content: "\f06e"; 
+            //   font-family: FontAwesome;
+            //   display: inline-block;
+            // }            
+          }
+
+          label {
+            display: block;
+            font-size: 14px;
+            color: #6b6b6b;
+            font-weight: 600;
+            max-width: 635px;
+            user-select: none;         
+            padding-bottom: 12px;
+            -ms-user-select: none;
+            letter-spacing: 0.5px;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+          }
+        }
+      }
+    }
+  }
+
+  .login_portrait_wrapper {
+    position: fixed;
+    right: 0;
+    min-height: auto;
+    width: 100%;
+    .login_portrait_image_wrapper {
+      position: relative;
+      height: 100vh;
+      .login_portrait_image {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-size: cover;
+        background-color: #d9d9d9;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-image: url('https://www.bmw.nl/content/dam/bmw/common/topics/fascination-bmw/concept-vehicles/concept-m8/bmw-f93-cv-onepager-sp-xxl.jpg.asset.1519898857693.jpg');
+      }
+    }
+  }
+  
+
+}
+

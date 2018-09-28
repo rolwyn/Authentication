@@ -1,0 +1,18 @@
+/* Add application styles & imports to this file! */
+@import "/app/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy');
+
+html, body{
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow: auto;
+  vertical-align: baseline;
+  font-family: 'Sorts Mill Goudy', serif;
+}
+
+label {
+  margin: 0;
+}
